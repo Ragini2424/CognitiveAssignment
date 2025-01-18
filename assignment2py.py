@@ -27,7 +27,7 @@ print(score.count(min(score)))
 # iii) reverse a tuple and return it as a list
 print(list(reversed(score)))
 # iv)check if a specific score '76' (input by user) is present in the tuple and print its first occurence index, or message saying it's not present
-x = print(input('enter a number'))
+x = int(input('enter a number'))
 if x in score:
     print(score.index(x))
 else:
