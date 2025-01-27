@@ -33,7 +33,7 @@ print(d.head())
 
 # Q.5 From the csv file (uploaded in the Q.4) delete row 4, and delete column 3. Display the result
 d.drop(index=3)
-d.drop(columns=df.columns[2])  
+d.drop(columns=d.columns[2])  
 
 # Q.6 Create a sample dataset (employees.csv) containing information about employees in 
 # a company.
